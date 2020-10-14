@@ -1,0 +1,163 @@
+.h2Title {
+    height: 76px;
+    line-height: 76px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+.more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #666666;
+    font-size: 12px;
+}
+.p1 {
+    height: 36px;
+    line-height: 36px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.p2 {
+    font-family: "微软雅黑";
+    font-size: 10px;
+    margin-left: 10px;
+}
+/* 首页导航 begin */
+.nav {
+    height: 77px;
+    background-color: #ffffff;
+}
+.nav .nav_c {
+    height: 77px;
+}
+.nav .nav_c li {
+    float: left;
+    height: 77px;
+    line-height: 77px;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.nav .nav_c li a {
+    color: #666666;
+}
+.nav .nav_c li a:hover {
+    color: red;
+}
+/* 首页导航 end */
+/* 首页banner begin */
+.banner ul {
+    width: 1320px;
+    margin: 0 auto;
+}
+.banner ul li {
+    float: left;
+    width: 330px;
+    position: relative;
+}
+.banner ul li img {
+    width: 330px;
+    height: 250px
+}
+.banner .des {
+    width: 330px;
+    height: 63px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/* 首页banner end */
+/* 首页搜索 begin */
+.search {
+    height: 100px;
+    background-color: #3f3a32;
+    overflow: hidden;
+}
+.search .s_center {
+    width: 728px;
+    height: 77px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 12px;
+}
+.search .s_center .txt {
+    width: 510px;
+    height: 77px;
+    font-size: 18px;
+    padding-left: 45px;
+    outline: none;
+}
+.search .s_center .btn {
+    width: 171px;
+    height: 77px;
+    background-color: red;
+    color: #ffffff;
+    font-size: 18px;
+}
+/* 首页搜索 end */
+/* 首页菜单 begin */
+.menu .img li {
+    width: 333px;
+    float: left;
+}
+.menu .img li img {
+    width: 333px;
+    height: 222px;
+    vertical-align: middle;
+}
+.menu .img .word {
+    width: 333px;
+    height: 57px;
+    background-color: #ffffff;
+}
+/* 首页菜单 end */
+/* 首页食材 begin */
+.food {
+    overflow: hidden;
+}
+.food .f_nav {
+    background-color: #ffffff;
+}
+.food .f_nav li {
+    float: left;
+    height: 42px;
+    width: 103px;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+}
+.food .f_nav li a {
+    color: #666666;
+}
+.food .f_img {
+    width: 1010px;
+}
+.food .f_img li {
+    float: left;
+    width: 167px;
+    height: 167px;
+    line-height: 167px;
+    text-align: center;
+    background-color: #ffffff;
+    line-height: 167px;
+    position: relative;
+}
+.food .f_img img {
+    width: 167px;
+    height: 120px;
+}
+.food .f_img span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 167px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/* 首页食材 end */

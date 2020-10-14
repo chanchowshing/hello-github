@@ -1,0 +1,119 @@
+.center {
+    width: 1000px;
+    margin: 0 auto;
+}
+.fz14 {
+    font-size: 14px;
+}
+.cRed {
+    color: #ff3232;
+}
+/* 顶部 begin */
+.top {
+    height: 47px;
+    background-color: #e9e8e8;
+}
+.top .top_c {
+    height: 47px;
+    line-height: 47px;
+}
+/* 顶部 end */
+/* logo begin */
+.logo {
+    height: 99px;
+    background-color: #c70202;
+}
+.logo .l_c {
+    height: 99px;
+}
+.logo .l_left a img {
+    /* display: inline-block; */
+    width: 221px;
+    height: 99px;
+    /* background: url(../images/logo.jpg);
+    text-indent: -9999em; */
+}
+.logo .l_center {
+    width: 300px;
+    height: 28px;
+    background-color: #ffffff;
+    padding: 1px;
+    margin-top: 34px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+.logo .l_center .txt {
+    width: 236px;
+    height: 28px;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.logo .l_center .btn {
+    width: 60px;
+    height: 28px;
+    background-color: #c70202;
+    color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+}
+.logo .l_right {
+    margin-top: 35px;
+}
+.logo .l_right li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.logo .l_right a {
+    color: #ffffff;
+}
+.logo .l_right input {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.logo .l_right img {
+    width: 24px;
+    height: 20px;
+    vertical-align: middle;
+}
+/* logo end */
+/* 内容 begin */
+
+/* 内容 end */
+/* 尾部 begin */
+.foot {
+    height: 273px;
+    padding: 10px;
+    background-color: #2f2f2f;
+}
+.foot .f_border {
+    height: 273px;
+    border: 1px solid #ffd283;
+}
+.foot .f_left {
+    margin-top: 55px;
+    color: #cccccc;
+}
+.foot .f_left li {
+    height: 33px;
+    line-height: 33px;
+}
+.foot .f_right {
+    margin-top: 38px;
+}
+.foot .f_right li {
+    float: left;
+    margin-left: 20px;
+}
+.foot .f_right li img {
+    width: 105px;
+    height: 100px;
+}
+.foot .f_right li a {
+    display: inline-block;
+    color: #666666;
+    text-align: center;
+}
+/* 尾部 end */
