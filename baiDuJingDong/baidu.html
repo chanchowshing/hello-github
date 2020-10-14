@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿百度一下</title>
+    <link rel="icon" href="https://www.baidu.com/favicon.ico">
+    <style type="text/css">
+        *{
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        header{
+            width: auto;
+            height: 80px;
+        }
+        header ul{
+            float: left;
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+        header ul li{
+            display:inline-block;
+
+        }
+        a:link,a:visited{
+            color: #222222;
+            margin-left: 20px;
+        }
+        a:hover,a:active{
+            color:blue;
+        }
+        article{
+            width: auto;
+            height: 520px;
+            text-align: center;
+        }
+        article #searchContent{
+            width: 480px;
+            height: 36px;
+        }
+        article #searchSubmit{
+            display: inline-block;
+            width: 108px;
+            height: 40px;
+            background-color: #4e6ef2;
+            color: white;
+            border: none;
+        }
+        article #search{
+            font-size: 0px;
+        }
+        article #QRcode{
+            width: auto;
+            height: 200px;
+            margin-top: 70px;
+        }
+        article #QRcode #title{
+            font-size: 15px;
+            color: #333333;
+        }
+        article #QRcode #subTitle{
+            font-size: 12px;
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">hao123</a></li>
+            <li><a href="#">地图</a></li>
+            <li><a href="#">视频</a></li>
+            <li><a href="#">贴吧</a></li>
+            <li><a href="#">学术</a></li>
+            <li><a href="#">更多</a></li>
+        </ul>
+    </header>
+    <article>
+        <img src="https://img-blog.csdnimg.cn/2019112820561652.png" alt="百度" width="300px">
+        <br />
+        <div id="search">
+            <input type="text" id="searchContent" />
+            <input type="submit" id="searchSubmit" value="百度一下" />
+        </div>
+        <div id="QRcode">
+            <img src="https://img-blog.csdnimg.cn/20191128205634473.jpg" alt="百度二维码">
+            <p id="title">下载百度APP</p>
+            <p id="subTitle">有事搜一搜 没事看一看</p>
+        </div>
+    </article>
+</body>
+</html>
